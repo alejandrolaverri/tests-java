@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="196c6e4b-0d05-4bc2-80ac-a357edf5ee88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/player/Dice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/player/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/player/PlayerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/PasswordUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/util/PasswordUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/util/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/PasswordUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/PasswordUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/StringUtilTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/payments/PaymentGateway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/payments/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/payments/PaymentRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/payments/PaymentResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/payments/PaymentProcessorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +20,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
@@ -49,17 +48,19 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.alejandromo.javatests.payments" />
       <recent name="com.alejandromo.javatests.player" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.alejandromo.javatests.payments" />
       <recent name="com.alejandromo.javatests.player" />
       <recent name="com.alejandromo.javatests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTest">
+  <component name="RunManager" selected="JUnit.PaymentProcessorTest">
     <configuration name="PasswordUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -91,6 +92,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alejandromo.javatests.payments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.payments" />
+      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.payments.PaymentProcessorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -108,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PaymentProcessorTest" />
         <item itemvalue="JUnit.PlayerTest" />
         <item itemvalue="JUnit.PasswordUtilTest" />
         <item itemvalue="JUnit.PasswordUtilTest.weak_when_has_less_than_8_letters" />

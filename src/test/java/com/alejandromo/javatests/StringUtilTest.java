@@ -1,5 +1,6 @@
 package com.alejandromo.javatests;
 
+import com.alejandromo.javatests.util.StringUtil;
 import org.junit.Assert;
 import org.junit.Test;
 

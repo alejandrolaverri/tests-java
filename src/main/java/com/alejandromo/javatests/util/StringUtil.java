@@ -1,4 +1,4 @@
-package com.alejandromo.javatests;
+package com.alejandromo.javatests.util;
 
 public class StringUtil {
 

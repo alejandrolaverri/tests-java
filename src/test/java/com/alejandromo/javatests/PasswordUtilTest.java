@@ -1,8 +1,9 @@
 package com.alejandromo.javatests;
 
+import com.alejandromo.javatests.util.PasswordUtil;
 import org.junit.Test;
 
-import static com.alejandromo.javatests.PasswordUtil.SecurityLevel.*;
+import static com.alejandromo.javatests.util.PasswordUtil.SecurityLevel.*;
 import static org.junit.Assert.*;
 
 public class PasswordUtilTest {

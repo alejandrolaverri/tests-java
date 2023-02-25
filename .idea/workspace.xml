@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="196c6e4b-0d05-4bc2-80ac-a357edf5ee88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/util/DateUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/util/DateUtilLeapYearShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/discounts/PriceCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/discounts/PriceCalculatorShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,13 +52,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.alejandromo.javatests.discounts" />
       <recent name="com.alejandromo.javatests.util" />
       <recent name="com.alejandromo.javatests.payments" />
       <recent name="com.alejandromo.javatests.player" />
       <recent name="com.alejandromo.javatests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DateUtilLeapYearShould">
+  <component name="RunManager" selected="JUnit.PriceCalculatorShould">
     <configuration name="DateUtilLeapYearShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -89,16 +90,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PriceCalculatorShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alejandromo.javatests.player.*" />
+          <option name="PATTERN" value="com.alejandromo.javatests.discounts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.player" />
-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.player.PlayerTest" />
+      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.discounts" />
+      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.discounts.PriceCalculatorShould" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PriceCalculatorShould" />
         <item itemvalue="JUnit.DateUtilLeapYearShould" />
         <item itemvalue="JUnit.StringUtilTest" />
         <item itemvalue="JUnit.StringUtilTest.string_is_not_empty" />
         <item itemvalue="JUnit.PaymentProcessorTest" />
-        <item itemvalue="JUnit.PlayerTest" />
       </list>
     </recent_temporary>
   </component>

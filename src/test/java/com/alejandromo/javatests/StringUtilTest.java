@@ -3,6 +3,7 @@ package com.alejandromo.javatests;
 import com.alejandromo.javatests.util.StringUtil;
 import org.junit.Assert;
 import org.junit.Test;
+import static org.junit.Assert.*;
 
 public class StringUtilTest {
     @Test
@@ -20,5 +21,17 @@ public class StringUtilTest {
     @Test(expected = IllegalArgumentException.class)
     public void repeat_string_negative_times() {
         Assert.assertEquals("", StringUtil.repeat("hola", -1));
+    }
+    @Test
+    public void string_is_not_empty() {
+        assertFalse(StringUtil.isEmpty("no esta vacía"));
+    }
+    @Test
+    public void string_is_null_is_empty() {
+        assertTrue(StringUtil.isEmpty(null));
+    }
+    @Test
+    public void string_is_empty() {
+        assertTrue(StringUtil.isEmpty(""));
     }
 }

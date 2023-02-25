@@ -1,0 +1,207 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"196c6e4b-0d05-4bc2-80ac-a357edf5ee88\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/payments/PaymentGateway.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/payments/PaymentProcessor.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/payments/PaymentRequest.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/payments/PaymentResponse.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/payments/PaymentProcessorTest.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"Class\" />\n        <option value=\"JUnit4 Test Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2M6ZzLiwnwkjM3jP2vze8hm8JLD\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateClassDialog.RecentsKey\">\n      <recent name=\"com.alejandromo.javatests.payments\" />\n      <recent name=\"com.alejandromo.javatests.player\" />\n    </key>\n    <key name=\"CreateTestDialog.Recents.Supers\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"CreateTestDialog.RecentsKey\">\n      <recent name=\"com.alejandromo.javatests.payments\" />\n      <recent name=\"com.alejandromo.javatests.player\" />\n      <recent name=\"com.alejandromo.javatests\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"JUnit.PaymentProcessorTest\">\n    <configuration name=\"PasswordUtilTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"javatests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.alejandromo.javatests.util.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.alejandromo.javatests\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.alejandromo.javatests.PasswordUtilTest\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"PasswordUtilTest.weak_when_has_less_than_8_letters\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"javatests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.alejandromo.javatests.util.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.alejandromo.javatests\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.alejandromo.javatests.PasswordUtilTest\" />\n      <option name=\"METHOD_NAME\" value=\"weak_when_has_less_than_8_letters\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"PaymentProcessorTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"javatests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.alejandromo.javatests.payments.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.alejandromo.javatests.payments\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.alejandromo.javatests.payments.PaymentProcessorTest\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"PlayerTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"javatests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.alejandromo.javatests.player.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.alejandromo.javatests.player\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.alejandromo.javatests.player.PlayerTest\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.PaymentProcessorTest\" />\n        <item itemvalue=\"JUnit.PlayerTest\" />\n        <item itemvalue=\"JUnit.PasswordUtilTest\" />\n        <item itemvalue=\"JUnit.PasswordUtilTest.weak_when_has_less_than_8_letters\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"196c6e4b-0d05-4bc2-80ac-a357edf5ee88\" name=\"Changes\" comment=\"\" />\n      <created>1677090313262</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1677090313262</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Testada clase PasswordUtil\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 1e263dce469ab3a682c1357c1ebb5a14979d3a98)
++++ b/.idea/workspace.xml	(date 1677321788038)
+@@ -5,12 +5,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="196c6e4b-0d05-4bc2-80ac-a357edf5ee88" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/payments/PaymentGateway.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/payments/PaymentProcessor.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/payments/PaymentRequest.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/payments/PaymentResponse.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/payments/PaymentProcessorTest.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/util/StringUtil.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/StringUtilTest.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/payments/PaymentProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/payments/PaymentProcessorTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -60,7 +58,7 @@
+       <recent name="com.alejandromo.javatests" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="JUnit.PaymentProcessorTest">
++  <component name="RunManager" selected="JUnit.StringUtilTest">
+     <configuration name="PasswordUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="javatests" />
+       <extension name="coverage">
+@@ -76,58 +74,74 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="PasswordUtilTest.weak_when_has_less_than_8_letters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="javatests" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.alejandromo.javatests.util.*" />
++          <option name="PATTERN" value="com.alejandromo.javatests.payments.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests" />
+-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.PasswordUtilTest" />
+-      <option name="METHOD_NAME" value="weak_when_has_less_than_8_letters" />
+-      <option name="TEST_OBJECT" value="method" />
++      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.payments" />
++      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.payments.PaymentProcessorTest" />
++      <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="javatests" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.alejandromo.javatests.payments.*" />
++          <option name="PATTERN" value="com.alejandromo.javatests.player.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.payments" />
+-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.payments.PaymentProcessorTest" />
++      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.player" />
++      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.player.PlayerTest" />
+       <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="PlayerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="javatests" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.alejandromo.javatests.player.*" />
++          <option name="PATTERN" value="com.alejandromo.javatests.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.player" />
+-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.player.PlayerTest" />
++      <option name="PACKAGE_NAME" value="com.alejandromo.javatests" />
++      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.StringUtilTest" />
+       <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <configuration name="StringUtilTest.string_is_not_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="javatests" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="com.alejandromo.javatests.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="com.alejandromo.javatests" />
++      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.StringUtilTest" />
++      <option name="METHOD_NAME" value="string_is_not_empty" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
+     <recent_temporary>
+       <list>
++        <item itemvalue="JUnit.StringUtilTest" />
++        <item itemvalue="JUnit.StringUtilTest.string_is_not_empty" />
+         <item itemvalue="JUnit.PaymentProcessorTest" />
+         <item itemvalue="JUnit.PlayerTest" />
+         <item itemvalue="JUnit.PasswordUtilTest" />
+-        <item itemvalue="JUnit.PasswordUtilTest.weak_when_has_less_than_8_letters" />
+       </list>
+     </recent_temporary>
+   </component>
+Index: src/test/java/com/alejandromo/javatests/payments/PaymentProcessorTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.alejandromo.javatests.payments;\n\nimport org.junit.Before;\nimport org.junit.Test;\nimport org.mockito.Mockito;\n\nimport static org.junit.Assert.*;\n\npublic class PaymentProcessorTest {\n\n    private PaymentGateway paymentGateway;\n    private PaymentProcessor paymentProcessor;\n    @Before\n    public void setup() {\n        paymentGateway = Mockito.mock(PaymentGateway.class);\n        paymentProcessor = new PaymentProcessor(paymentGateway);\n    }\n    @Test\n    public void payment_is_correct() {\n        Mockito.when(paymentGateway.requestPaymment(Mockito.any()))\n               .thenReturn(new PaymentResponse(PaymentResponse.PaymentStatus.OK));\n\n        assertTrue(paymentProcessor.makePayment(1000));\n    }\n    @Test\n    public void payment_is_wrong() {\n        Mockito.when(paymentGateway.requestPaymment(Mockito.any()))\n                .thenReturn(new PaymentResponse(PaymentResponse.PaymentStatus.ERROR));\n\n        assertFalse(paymentProcessor.makePayment(1000));\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/com/alejandromo/javatests/payments/PaymentProcessorTest.java b/src/test/java/com/alejandromo/javatests/payments/PaymentProcessorTest.java
+--- a/src/test/java/com/alejandromo/javatests/payments/PaymentProcessorTest.java	(revision 1e263dce469ab3a682c1357c1ebb5a14979d3a98)
++++ b/src/test/java/com/alejandromo/javatests/payments/PaymentProcessorTest.java	(date 1677321788046)
+@@ -3,7 +3,6 @@
+ import org.junit.Before;
+ import org.junit.Test;
+ import org.mockito.Mockito;
+-
+ import static org.junit.Assert.*;
+ 
+ public class PaymentProcessorTest {
+Index: src/test/java/com/alejandromo/javatests/StringUtilTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.alejandromo.javatests;\n\nimport com.alejandromo.javatests.util.StringUtil;\nimport org.junit.Assert;\nimport org.junit.Test;\n\npublic class StringUtilTest {\n    @Test\n    public void repeat_string_once() {\n        Assert.assertEquals(\"hola\", StringUtil.repeat(\"hola\", 1));\n    }\n    @Test\n    public void repeat_string_multiple_times() {\n        Assert.assertEquals(\"holaholahola\", StringUtil.repeat(\"hola\", 3));\n    }\n    @Test\n    public void repeat_string_zero_times() {\n        Assert.assertEquals(\"\", StringUtil.repeat(\"hola\", 0));\n    }\n    @Test(expected = IllegalArgumentException.class)\n    public void repeat_string_negative_times() {\n        Assert.assertEquals(\"\", StringUtil.repeat(\"hola\", -1));\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/com/alejandromo/javatests/StringUtilTest.java b/src/test/java/com/alejandromo/javatests/StringUtilTest.java
+--- a/src/test/java/com/alejandromo/javatests/StringUtilTest.java	(revision 1e263dce469ab3a682c1357c1ebb5a14979d3a98)
++++ b/src/test/java/com/alejandromo/javatests/StringUtilTest.java	(date 1677321788053)
+@@ -3,6 +3,7 @@
+ import com.alejandromo.javatests.util.StringUtil;
+ import org.junit.Assert;
+ import org.junit.Test;
++import static org.junit.Assert.*;
+ 
+ public class StringUtilTest {
+     @Test
+@@ -21,4 +22,16 @@
+     public void repeat_string_negative_times() {
+         Assert.assertEquals("", StringUtil.repeat("hola", -1));
+     }
++    @Test
++    public void string_is_not_empty() {
++        assertFalse(StringUtil.isEmpty("no esta vacía"));
++    }
++    @Test
++    public void string_is_null_is_empty() {
++        assertTrue(StringUtil.isEmpty(null));
++    }
++    @Test
++    public void string_is_empty() {
++        assertTrue(StringUtil.isEmpty(""));
++    }
+ }
+\ No newline at end of file
+Index: src/main/java/com/alejandromo/javatests/util/StringUtil.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.alejandromo.javatests.util;\n\npublic class StringUtil {\n\n    public static String repeat (String str, int times){\n        if (times < 0 ) {\n            throw new IllegalArgumentException(\"negative times not allowed\");\n        }\n\n        String result = \"\";\n\n        for (int i = 0; i < times; i++) {\n            result += str;\n        }\n\n        return result;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/alejandromo/javatests/util/StringUtil.java b/src/main/java/com/alejandromo/javatests/util/StringUtil.java
+--- a/src/main/java/com/alejandromo/javatests/util/StringUtil.java	(revision 1e263dce469ab3a682c1357c1ebb5a14979d3a98)
++++ b/src/main/java/com/alejandromo/javatests/util/StringUtil.java	(date 1677321788059)
+@@ -2,7 +2,7 @@
+ 
+ public class StringUtil {
+ 
+-    public static String repeat (String str, int times){
++    public static String repeat(String str, int times){
+         if (times < 0 ) {
+             throw new IllegalArgumentException("negative times not allowed");
+         }
+@@ -15,4 +15,8 @@
+ 
+         return result;
+     }
++
++    public static boolean isEmpty(String str) {
++        return str == null || str.trim().isEmpty();
++    }
+ }

@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="196c6e4b-0d05-4bc2-80ac-a357edf5ee88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/discounts/PriceCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/discounts/PriceCalculatorShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/fizzbuzz/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/fizzbuzz/FizzBuzzTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,14 +52,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.alejandromo.javatests.fizzbuzz" />
       <recent name="com.alejandromo.javatests.discounts" />
       <recent name="com.alejandromo.javatests.util" />
       <recent name="com.alejandromo.javatests.payments" />
       <recent name="com.alejandromo.javatests.player" />
-      <recent name="com.alejandromo.javatests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PriceCalculatorShould">
+  <component name="RunManager" selected="JUnit.FizzBuzzTest">
     <configuration name="DateUtilLeapYearShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -75,17 +75,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentProcessorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alejandromo.javatests.payments.*" />
+          <option name="PATTERN" value="com.alejandromo.javatests.fizzbuzz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.payments" />
-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.payments.PaymentProcessorTest" />
+      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.fizzbuzz" />
+      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.fizzbuzz.FizzBuzzTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FizzBuzzTest.return_buzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alejandromo.javatests.fizzbuzz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.fizzbuzz" />
+      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.fizzbuzz.FizzBuzzTest" />
+      <option name="METHOD_NAME" value="return_buzz" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -120,29 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest.string_is_not_empty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alejandromo.javatests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests" />
-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.StringUtilTest" />
-      <option name="METHOD_NAME" value="string_is_not_empty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FizzBuzzTest" />
+        <item itemvalue="JUnit.FizzBuzzTest.return_buzz" />
         <item itemvalue="JUnit.PriceCalculatorShould" />
         <item itemvalue="JUnit.DateUtilLeapYearShould" />
         <item itemvalue="JUnit.StringUtilTest" />
-        <item itemvalue="JUnit.StringUtilTest.string_is_not_empty" />
-        <item itemvalue="JUnit.PaymentProcessorTest" />
       </list>
     </recent_temporary>
   </component>

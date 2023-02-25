@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="196c6e4b-0d05-4bc2-80ac-a357edf5ee88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/util/DateUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/util/DateUtilLeapYearShould.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/util/StringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/util/StringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/StringUtilTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/StringUtilTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/payments/PaymentProcessorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/payments/PaymentProcessorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,13 +52,14 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.alejandromo.javatests.util" />
       <recent name="com.alejandromo.javatests.payments" />
       <recent name="com.alejandromo.javatests.player" />
       <recent name="com.alejandromo.javatests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringUtilTest">
-    <configuration name="PasswordUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DateUtilLeapYearShould">
+    <configuration name="DateUtilLeapYearShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +67,8 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests" />
-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.PasswordUtilTest" />
+      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.util" />
+      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.util.DateUtilLeapYearShould" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DateUtilLeapYearShould" />
         <item itemvalue="JUnit.StringUtilTest" />
         <item itemvalue="JUnit.StringUtilTest.string_is_not_empty" />
         <item itemvalue="JUnit.PaymentProcessorTest" />
         <item itemvalue="JUnit.PlayerTest" />
-        <item itemvalue="JUnit.PasswordUtilTest" />
       </list>
     </recent_temporary>
   </component>

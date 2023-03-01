@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="196c6e4b-0d05-4bc2-80ac-a357edf5ee88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/fizzbuzz/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/fizzbuzz/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/romannumerals/RomanNumerals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/romannumerals/RomanNumeralsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/fizzbuzz/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/fizzbuzz/FizzBuzzTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,97 +53,100 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.alejandromo.javatests.romannumerals" />
       <recent name="com.alejandromo.javatests.fizzbuzz" />
       <recent name="com.alejandromo.javatests.discounts" />
       <recent name="com.alejandromo.javatests.util" />
       <recent name="com.alejandromo.javatests.payments" />
-      <recent name="com.alejandromo.javatests.player" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FizzBuzzTest">
-    <configuration name="DateUtilLeapYearShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RomanNumeralsTest.return_number_roman_III">
+    <configuration name="RomanNumeralsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alejandromo.javatests.util.*" />
+          <option name="PATTERN" value="com.alejandromo.javatests.romannumerals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.util" />
-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.util.DateUtilLeapYearShould" />
+      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.romannumerals" />
+      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.romannumerals.RomanNumeralsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumeralsTest.return_number_roman_II" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alejandromo.javatests.fizzbuzz.*" />
+          <option name="PATTERN" value="com.alejandromo.javatests.romannumerals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.fizzbuzz" />
-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.fizzbuzz.FizzBuzzTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FizzBuzzTest.return_buzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alejandromo.javatests.fizzbuzz.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.fizzbuzz" />
-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.fizzbuzz.FizzBuzzTest" />
-      <option name="METHOD_NAME" value="return_buzz" />
+      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.romannumerals" />
+      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.romannumerals.RomanNumeralsTest" />
+      <option name="METHOD_NAME" value="return_number_roman_II" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriceCalculatorShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumeralsTest.return_number_roman_III" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alejandromo.javatests.discounts.*" />
+          <option name="PATTERN" value="com.alejandromo.javatests.romannumerals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.discounts" />
-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.discounts.PriceCalculatorShould" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.romannumerals" />
+      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.romannumerals.RomanNumeralsTest" />
+      <option name="METHOD_NAME" value="return_number_roman_III" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumeralsTest.return_number_roman_IV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.alejandromo.javatests.*" />
+          <option name="PATTERN" value="com.alejandromo.javatests.romannumerals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests" />
-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.StringUtilTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.romannumerals" />
+      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.romannumerals.RomanNumeralsTest" />
+      <option name="METHOD_NAME" value="return_number_roman_IV" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanNumeralsTest.return_number_roman_XIV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alejandromo.javatests.romannumerals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.romannumerals" />
+      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.romannumerals.RomanNumeralsTest" />
+      <option name="METHOD_NAME" value="return_number_roman_XIV" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FizzBuzzTest" />
-        <item itemvalue="JUnit.FizzBuzzTest.return_buzz" />
-        <item itemvalue="JUnit.PriceCalculatorShould" />
-        <item itemvalue="JUnit.DateUtilLeapYearShould" />
-        <item itemvalue="JUnit.StringUtilTest" />
+        <item itemvalue="JUnit.RomanNumeralsTest.return_number_roman_III" />
+        <item itemvalue="JUnit.RomanNumeralsTest.return_number_roman_II" />
+        <item itemvalue="JUnit.RomanNumeralsTest.return_number_roman_IV" />
+        <item itemvalue="JUnit.RomanNumeralsTest" />
+        <item itemvalue="JUnit.RomanNumeralsTest.return_number_roman_XIV" />
       </list>
     </recent_temporary>
   </component>

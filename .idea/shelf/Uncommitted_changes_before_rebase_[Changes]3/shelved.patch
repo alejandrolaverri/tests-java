@@ -1,0 +1,190 @@
+Index: src/test/java/com/alejandromo/javatests/fizzbuzz/FizzBuzzTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.alejandromo.javatests.fizzbuzz;\n\nimport org.junit.Test;\n\nimport static org.junit.Assert.*;\n\npublic class FizzBuzzTest {\n\n    /*\n     * Si el número es divisible por 3, retorna “Fizz”\n     * Si el número es divisible por 5, retorna “Buzz”\n     * Si el número es divisible por 3 y por 5, retorna “FizzBuzz”\n     * En otro caso, retorna el mismo número\n     */\n    @Test\n    public void return_fizz() {\n        assertEquals(\"Fizz\", FizzBuzz.fizzBuzz(3));\n    }\n    @Test\n    public void return_buzz() {\n        assertEquals(\"Buzz\", FizzBuzz.fizzBuzz(5));\n    }\n    @Test\n    public void return_fizzbuzz() {\n        assertEquals(\"FizzBuzz\", FizzBuzz.fizzBuzz(15));\n    }\n    @Test\n    public void return_number() {\n        assertEquals(\"1\", FizzBuzz.fizzBuzz(1));\n    }\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/test/java/com/alejandromo/javatests/fizzbuzz/FizzBuzzTest.java b/src/test/java/com/alejandromo/javatests/fizzbuzz/FizzBuzzTest.java
+--- a/src/test/java/com/alejandromo/javatests/fizzbuzz/FizzBuzzTest.java	
++++ b/src/test/java/com/alejandromo/javatests/fizzbuzz/FizzBuzzTest.java	
+@@ -13,19 +13,19 @@
+      * En otro caso, retorna el mismo número
+      */
+     @Test
+-    public void return_fizz() {
++    public void return_fizz_when_number_is_divisible_by_3() {
+         assertEquals("Fizz", FizzBuzz.fizzBuzz(3));
+     }
+     @Test
+-    public void return_buzz() {
++    public void return_buzz_when_number_is_divisible_by_5() {
+         assertEquals("Buzz", FizzBuzz.fizzBuzz(5));
+     }
+     @Test
+-    public void return_fizzbuzz() {
++    public void return_fizzbuzz_when_number_is_divisible_by_3_and_5() {
+         assertEquals("FizzBuzz", FizzBuzz.fizzBuzz(15));
+     }
+     @Test
+-    public void return_number() {
++    public void return_number_when_number_is_not_is_divisible_by_3_and_5() {
+         assertEquals("1", FizzBuzz.fizzBuzz(1));
+     }
+ }
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"196c6e4b-0d05-4bc2-80ac-a357edf5ee88\" name=\"Changes\" comment=\"\">\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/fizzbuzz/FizzBuzz.java\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/fizzbuzz/FizzBuzzTest.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Interface\" />\n        <option value=\"Class\" />\n        <option value=\"JUnit4 Test Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectId\" id=\"2M6ZzLiwnwkjM3jP2vze8hm8JLD\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">{\n  &quot;keyToString&quot;: {\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,\n    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;\n  }\n}</component>\n  <component name=\"RecentsManager\">\n    <key name=\"CreateClassDialog.RecentsKey\">\n      <recent name=\"com.alejandromo.javatests.payments\" />\n      <recent name=\"com.alejandromo.javatests.player\" />\n    </key>\n    <key name=\"CreateTestDialog.Recents.Supers\">\n      <recent name=\"\" />\n    </key>\n    <key name=\"CreateTestDialog.RecentsKey\">\n      <recent name=\"com.alejandromo.javatests.fizzbuzz\" />\n      <recent name=\"com.alejandromo.javatests.discounts\" />\n      <recent name=\"com.alejandromo.javatests.util\" />\n      <recent name=\"com.alejandromo.javatests.payments\" />\n      <recent name=\"com.alejandromo.javatests.player\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"JUnit.FizzBuzzTest\">\n    <configuration name=\"DateUtilLeapYearShould\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"javatests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.alejandromo.javatests.util.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.alejandromo.javatests.util\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.alejandromo.javatests.util.DateUtilLeapYearShould\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"FizzBuzzTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"javatests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.alejandromo.javatests.fizzbuzz.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.alejandromo.javatests.fizzbuzz\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.alejandromo.javatests.fizzbuzz.FizzBuzzTest\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"FizzBuzzTest.return_buzz\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"javatests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.alejandromo.javatests.fizzbuzz.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.alejandromo.javatests.fizzbuzz\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.alejandromo.javatests.fizzbuzz.FizzBuzzTest\" />\n      <option name=\"METHOD_NAME\" value=\"return_buzz\" />\n      <option name=\"TEST_OBJECT\" value=\"method\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"PriceCalculatorShould\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"javatests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.alejandromo.javatests.discounts.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.alejandromo.javatests.discounts\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.alejandromo.javatests.discounts.PriceCalculatorShould\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration name=\"StringUtilTest\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\n      <module name=\"javatests\" />\n      <extension name=\"coverage\">\n        <pattern>\n          <option name=\"PATTERN\" value=\"com.alejandromo.javatests.*\" />\n          <option name=\"ENABLED\" value=\"true\" />\n        </pattern>\n      </extension>\n      <option name=\"PACKAGE_NAME\" value=\"com.alejandromo.javatests\" />\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.alejandromo.javatests.StringUtilTest\" />\n      <option name=\"TEST_OBJECT\" value=\"class\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"JUnit.FizzBuzzTest\" />\n        <item itemvalue=\"JUnit.FizzBuzzTest.return_buzz\" />\n        <item itemvalue=\"JUnit.PriceCalculatorShould\" />\n        <item itemvalue=\"JUnit.DateUtilLeapYearShould\" />\n        <item itemvalue=\"JUnit.StringUtilTest\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"196c6e4b-0d05-4bc2-80ac-a357edf5ee88\" name=\"Changes\" comment=\"\" />\n      <created>1677090313262</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1677090313262</updated>\n    </task>\n    <servers />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Implementada y testada clase PasswordUtil\" />\n    <MESSAGE value=\"Implementada y testada clase Player\" />\n    <MESSAGE value=\"Implementada y testada simulación pasarela de pago\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,9 +5,10 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="196c6e4b-0d05-4bc2-80ac-a357edf5ee88" name="Changes" comment="">
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/fizzbuzz/FizzBuzz.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/fizzbuzz/FizzBuzzTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/romannumerals/RomanNumerals.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/romannumerals/RomanNumeralsTest.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/fizzbuzz/FizzBuzzTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/fizzbuzz/FizzBuzzTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -52,97 +53,100 @@
+       <recent name="" />
+     </key>
+     <key name="CreateTestDialog.RecentsKey">
++      <recent name="com.alejandromo.javatests.romannumerals" />
+       <recent name="com.alejandromo.javatests.fizzbuzz" />
+       <recent name="com.alejandromo.javatests.discounts" />
+       <recent name="com.alejandromo.javatests.util" />
+       <recent name="com.alejandromo.javatests.payments" />
+-      <recent name="com.alejandromo.javatests.player" />
+     </key>
+   </component>
+-  <component name="RunManager" selected="JUnit.FizzBuzzTest">
+-    <configuration name="DateUtilLeapYearShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++  <component name="RunManager" selected="JUnit.RomanNumeralsTest.return_number_roman_III">
++    <configuration name="RomanNumeralsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="javatests" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.alejandromo.javatests.util.*" />
++          <option name="PATTERN" value="com.alejandromo.javatests.romannumerals.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.util" />
+-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.util.DateUtilLeapYearShould" />
++      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.romannumerals" />
++      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.romannumerals.RomanNumeralsTest" />
+       <option name="TEST_OBJECT" value="class" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="FizzBuzzTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="RomanNumeralsTest.return_number_roman_II" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="javatests" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.alejandromo.javatests.fizzbuzz.*" />
++          <option name="PATTERN" value="com.alejandromo.javatests.romannumerals.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.fizzbuzz" />
+-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.fizzbuzz.FizzBuzzTest" />
+-      <option name="TEST_OBJECT" value="class" />
++      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.romannumerals" />
++      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.romannumerals.RomanNumeralsTest" />
++      <option name="METHOD_NAME" value="return_number_roman_II" />
++      <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="FizzBuzzTest.return_buzz" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="RomanNumeralsTest.return_number_roman_III" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="javatests" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.alejandromo.javatests.fizzbuzz.*" />
++          <option name="PATTERN" value="com.alejandromo.javatests.romannumerals.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.fizzbuzz" />
+-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.fizzbuzz.FizzBuzzTest" />
+-      <option name="METHOD_NAME" value="return_buzz" />
++      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.romannumerals" />
++      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.romannumerals.RomanNumeralsTest" />
++      <option name="METHOD_NAME" value="return_number_roman_III" />
+       <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="PriceCalculatorShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="RomanNumeralsTest.return_number_roman_IV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="javatests" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.alejandromo.javatests.discounts.*" />
++          <option name="PATTERN" value="com.alejandromo.javatests.romannumerals.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.discounts" />
+-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.discounts.PriceCalculatorShould" />
+-      <option name="TEST_OBJECT" value="class" />
++      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.romannumerals" />
++      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.romannumerals.RomanNumeralsTest" />
++      <option name="METHOD_NAME" value="return_number_roman_IV" />
++      <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+-    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++    <configuration name="RomanNumeralsTest.return_number_roman_XIV" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+       <module name="javatests" />
+       <extension name="coverage">
+         <pattern>
+-          <option name="PATTERN" value="com.alejandromo.javatests.*" />
++          <option name="PATTERN" value="com.alejandromo.javatests.romannumerals.*" />
+           <option name="ENABLED" value="true" />
+         </pattern>
+       </extension>
+-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests" />
+-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.StringUtilTest" />
+-      <option name="TEST_OBJECT" value="class" />
++      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.romannumerals" />
++      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.romannumerals.RomanNumeralsTest" />
++      <option name="METHOD_NAME" value="return_number_roman_XIV" />
++      <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
+     <recent_temporary>
+       <list>
+-        <item itemvalue="JUnit.FizzBuzzTest" />
+-        <item itemvalue="JUnit.FizzBuzzTest.return_buzz" />
+-        <item itemvalue="JUnit.PriceCalculatorShould" />
+-        <item itemvalue="JUnit.DateUtilLeapYearShould" />
+-        <item itemvalue="JUnit.StringUtilTest" />
++        <item itemvalue="JUnit.RomanNumeralsTest.return_number_roman_III" />
++        <item itemvalue="JUnit.RomanNumeralsTest.return_number_roman_II" />
++        <item itemvalue="JUnit.RomanNumeralsTest.return_number_roman_IV" />
++        <item itemvalue="JUnit.RomanNumeralsTest" />
++        <item itemvalue="JUnit.RomanNumeralsTest.return_number_roman_XIV" />
+       </list>
+     </recent_temporary>
+   </component>

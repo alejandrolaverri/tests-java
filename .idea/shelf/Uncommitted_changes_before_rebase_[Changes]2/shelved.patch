@@ -1,0 +1,181 @@
+Index: src/main/java/com/alejandromo/javatests/romannumerals/RomanNumerals.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.alejandromo.javatests.romannumerals;public class RomanNumerals {\n}\n
+===================================================================
+diff --git a/src/main/java/com/alejandromo/javatests/romannumerals/RomanNumerals.java b/src/main/java/com/alejandromo/javatests/romannumerals/RomanNumerals.java
+--- a/src/main/java/com/alejandromo/javatests/romannumerals/RomanNumerals.java	
++++ b/src/main/java/com/alejandromo/javatests/romannumerals/RomanNumerals.java	
+@@ -1,2 +1,52 @@
+-package com.alejandromo.javatests.romannumerals;public class RomanNumerals {
++package com.alejandromo.javatests.romannumerals;
++
++import java.util.Arrays;
++import java.util.List;
++
++public class RomanNumerals {
++
++    enum RomanNumeral {
++        M(1000), CM(900), D(500), CD(400),
++        C(100), XC(90), L(50), XL(40),
++        X(10), IX(9), V(5), IV(4),
++        I(1);
++
++        private final int value;
++
++        RomanNumeral(int value) {
++            this.value = value;
++        }
++
++        public int getValue() {
++            return value;
++        }
++
++        public static List<RomanNumeral> getRomanNumerals() {
++            return Arrays.asList(RomanNumeral.values());
++        }
++
++    }
++
++    public static String arabicToRoman(int n) {
++        StringBuilder collator = new StringBuilder();
++        List<RomanNumeral> romanNumerals = RomanNumeral.getRomanNumerals();
++
++        //Valida que el número sea menor a 4000 debido a que el formato cambia
++        if (n > 0 && n < 4000) {
++            int i = 0;
++            while (n > 0 && i < romanNumerals.size()) {
++                RomanNumeral currentRoman = romanNumerals.get(i);
++                if (n >= currentRoman.getValue()) {
++                    collator.append(currentRoman);
++                    n -= currentRoman.getValue();
++                } else {
++                    i++;
++                }
++            }
++            return collator.toString();
++        } else {
++            throw new IllegalArgumentException (n + "no está en el rango (0,4000)");
++        }
++    }
++
+ }
+Index: src/test/java/com/alejandromo/javatests/romannumerals/RomanNumeralsTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import static org.junit.Assert.*;\npublic class RomanNumeralsTest {\n  \n}
+===================================================================
+diff --git a/src/test/java/com/alejandromo/javatests/romannumerals/RomanNumeralsTest.java b/src/test/java/com/alejandromo/javatests/romannumerals/RomanNumeralsTest.java
+--- a/src/test/java/com/alejandromo/javatests/romannumerals/RomanNumeralsTest.java	
++++ b/src/test/java/com/alejandromo/javatests/romannumerals/RomanNumeralsTest.java	
+@@ -1,4 +1,108 @@
++package com.alejandromo.javatests.romannumerals;
++
++import org.junit.Test;
++
+ import static org.junit.Assert.*;
++
+ public class RomanNumeralsTest {
+-  
++    @Test
++    public void return_number_roman_I() {
++        assertEquals("I", RomanNumerals.arabicToRoman(1));
++    }
++    @Test
++    public void return_number_roman_II() {
++        assertEquals("II", RomanNumerals.arabicToRoman(2));
++    }
++    @Test
++    public void return_number_roman_III() {
++        assertEquals("III", RomanNumerals.arabicToRoman(3));
++    }
++    @Test
++    public void return_number_roman_IV() {
++        assertEquals("IV", RomanNumerals.arabicToRoman(4));
++    }
++    @Test
++    public void return_number_roman_V() {
++        assertEquals("V", RomanNumerals.arabicToRoman(5));
++    }
++    @Test
++    public void return_number_roman_VI() {
++        assertEquals("VI", RomanNumerals.arabicToRoman(6));
++    }
++    @Test
++    public void return_number_roman_VII() {
++        assertEquals("VII", RomanNumerals.arabicToRoman(7));
++    }
++    @Test
++    public void return_number_roman_X() {
++        assertEquals("X", RomanNumerals.arabicToRoman(10));
++    }
++    @Test
++    public void return_number_roman_XI() {
++        assertEquals("XI", RomanNumerals.arabicToRoman(11));
++    }
++    @Test
++    public void return_number_roman_XIV() {
++        assertEquals("XIV", RomanNumerals.arabicToRoman(14));
++    }
++    @Test
++    public void return_number_roman_XV() {
++        assertEquals("XV", RomanNumerals.arabicToRoman(15));
++    }
++    @Test
++    public void return_number_roman_XVI() {
++        assertEquals("XVI", RomanNumerals.arabicToRoman(16));
++    }
++    @Test
++    public void return_number_roman_L() {
++        assertEquals("L", RomanNumerals.arabicToRoman(50));
++    }
++    @Test
++    public void return_number_roman_LI() {
++        assertEquals("LI", RomanNumerals.arabicToRoman(51));
++    }
++    @Test
++    public void return_number_roman_LV() {
++        assertEquals("LV", RomanNumerals.arabicToRoman(55));
++    }
++    @Test
++    public void return_number_roman_LVI() {
++        assertEquals("LVI", RomanNumerals.arabicToRoman(56));
++    }
++    @Test
++    public void return_number_roman_LX() {
++        assertEquals("LX", RomanNumerals.arabicToRoman(60));
++    }
++    @Test
++    public void return_number_roman_LXX() {
++        assertEquals("LXX", RomanNumerals.arabicToRoman(70));
++    }
++    @Test
++    public void return_number_roman_LXXX() {
++        assertEquals("LXXX", RomanNumerals.arabicToRoman(80));
++    }
++    @Test
++    public void return_number_roman_LXXXI() {
++        assertEquals("LXXXI", RomanNumerals.arabicToRoman(81));
++    }
++    @Test
++    public void return_number_roman_LXXXV() {
++        assertEquals("LXXXV", RomanNumerals.arabicToRoman(85));
++    }
++    @Test
++    public void return_number_roman_LXXXVI() {
++        assertEquals("LXXXVI", RomanNumerals.arabicToRoman(86));
++    }
++    @Test
++    public void return_number_roman_CXXVI() {
++        assertEquals("CXXVI", RomanNumerals.arabicToRoman(126));
++    }
++    @Test
++    public void return_number_roman_CD() {
++        assertEquals("CD", RomanNumerals.arabicToRoman(400));
++    }
++    @Test
++    public void return_number_roman_MMDVII() {
++        assertEquals("MMDVII", RomanNumerals.arabicToRoman(2507));
++    }
+ }
+\ No newline at end of file

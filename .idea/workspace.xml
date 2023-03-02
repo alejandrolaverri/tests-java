@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="196c6e4b-0d05-4bc2-80ac-a357edf5ee88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/movies/data/MovieRepositoryJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/movies/data/MovieRepositoryIntegrationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/sql-scripts/test-data.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/movies/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/movies/model/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/movies/data/MovieRepositoryJdbc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/movies/data/MovieRepositoryJdbc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/movies/data/MovieRepositoryIntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/movies/data/MovieRepositoryIntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,5 +189,6 @@
     <MESSAGE value="Implementada y testada clase PasswordUtil" />
     <MESSAGE value="Implementada y testada clase Player" />
     <MESSAGE value="Implementada y testada simulación pasarela de pago" />
+    <MESSAGE value="Creación de la base de datos y test de integración de la carga de peliculas" />
   </component>
 </project>

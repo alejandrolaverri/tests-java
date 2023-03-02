@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="196c6e4b-0d05-4bc2-80ac-a357edf5ee88" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/movies/service/MovieService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/movies/service/MovieService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/movies/service/MovieServiceShould.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/movies/service/MovieServiceShould.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/movies/data/MovieRepositoryJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/alejandromo/javatests/movies/data/MovieRepositoryIntegrationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/sql-scripts/test-data.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/movies/model/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/movies/model/Movie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.alejandromo.javatests.movies.data" />
       <recent name="com.alejandromo.javatests.payments" />
       <recent name="com.alejandromo.javatests.player" />
     </key>
@@ -52,18 +57,34 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/sql-scripts" />
       <recent name="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests" />
       <recent name="$PROJECT_DIR$/src/main/java/com/alejandromo/javatests/romannumerals" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.alejandromo.javatests.movies.data" />
       <recent name="com.alejandromo.javatests.movies.service" />
       <recent name="com.alejandromo.javatests.romannumerals" />
       <recent name="com.alejandromo.javatests.fizzbuzz" />
       <recent name="com.alejandromo.javatests.discounts" />
-      <recent name="com.alejandromo.javatests.util" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MovieServiceShould">
+  <component name="RunManager" selected="JUnit.MovieRepositoryIntegrationTest">
+    <configuration name="MovieRepositoryIntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="javatests" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.alejandromo.javatests.movies.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.movies.data" />
+      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.movies.data.MovieRepositoryIntegrationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MovieServiceShould" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="javatests" />
       <extension name="coverage">
@@ -74,21 +95,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.alejandromo.javatests.movies.service" />
       <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.movies.service.MovieServiceShould" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RomanNumeralsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="javatests" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.alejandromo.javatests.romannumerals.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.alejandromo.javatests.romannumerals" />
-      <option name="MAIN_CLASS_NAME" value="com.alejandromo.javatests.romannumerals.RomanNumeralsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MovieRepositoryIntegrationTest" />
         <item itemvalue="JUnit.MovieServiceShould" />
         <item itemvalue="JUnit.RomanNumeralsTest.return_number_roman_III" />
         <item itemvalue="JUnit.RomanNumeralsTest.return_number_roman_II" />
         <item itemvalue="JUnit.RomanNumeralsTest.return_number_roman_IV" />
-        <item itemvalue="JUnit.RomanNumeralsTest" />
       </list>
     </recent_temporary>
   </component>

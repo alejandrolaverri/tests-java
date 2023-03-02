@@ -1,5 +1,7 @@
 package com.alejandromo.javatests.movies.model;
 
+import java.util.Objects;
+
 public class Movie {
 
     private Integer id;
@@ -18,9 +20,7 @@ public class Movie {
         this.genre = genre;
     }
 
-    public Integer getId() {
-        return id;
-    }
+    public Integer getId() { return id; }
 
     public String getName() {
         return name;
@@ -32,5 +32,18 @@ public class Movie {
 
     public Genre getGenre() {
         return genre;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Movie movie = (Movie) o;
+        return minutes == movie.minutes && Objects.equals(id, movie.id) && Objects.equals(name, movie.name) && genre == movie.genre;
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, name, minutes, genre);
     }
 }
